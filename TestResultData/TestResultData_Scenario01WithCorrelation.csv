@@ -1,0 +1,23 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1743701943778,898,Scn-1_Stp-01_EnterURLandClickOnEnterTheStore,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,5664,525,1,1,null,0,3114,671
+1743701946892,898,Scn-1_Stp-01_EnterURLandClickOnEnterTheStore,200,,Scenario-1_ShoppingFish 1-1,text,true,,5664,525,1,1,https://petstore.octoperf.com/actions/Catalog.action,897,0,671
+1743701947791,223,Scn-1_Stp-02_ClickOnSignIn,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,4097,656,1,1,null,0,3166,0
+1743701950957,223,Scn-1_Stp-02_ClickOnSignIn,200,,Scenario-1_ShoppingFish 1-1,text,true,,4097,656,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=7E6F84ADB7D9D49E49938BE633299882?signonForm=,222,0,0
+1743701951180,218,Scn-1_Stp-03_EnterTheCredentialAndClickOnLoginButton,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,230,997,1,1,null,0,3253,0
+1743701954431,218,Scn-1_Stp-03_EnterTheCredentialAndClickOnLoginButton,302,,Scenario-1_ShoppingFish 1-1,,true,,230,997,1,1,https://petstore.octoperf.com/actions/Account.action,218,0,0
+1743701954650,218,Scn-1_Stp-04_ClickOnProductCatalog,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,4065,630,1,1,null,0,3025,0
+1743701957675,218,Scn-1_Stp-04_ClickOnProductCatalog,200,,Scenario-1_ShoppingFish 1-1,text,true,,4065,630,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH,218,0,0
+1743701957893,222,Scn-1_Stp-05_ClickOnProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,4256,662,1,1,null,0,3469,0
+1743701961361,222,Scn-1_Stp-05_ClickOnProduct,200,,Scenario-1_ShoppingFish 1-1,text,true,,4256,662,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-FW-02,222,0,0
+1743701961585,222,Scn-1_Stp-06_ClickOnAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,4813,665,1,1,null,0,3500,0
+1743701965085,222,Scn-1_Stp-06_ClickOnAddToCart,200,,Scenario-1_ShoppingFish 1-1,text,true,,4813,665,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-21,221,0,0
+1743701965308,221,Scn-1_Stp-07_ClickOnProceedToCheckOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,5561,644,1,1,null,0,3044,0
+1743701968352,221,Scn-1_Stp-07_ClickOnProceedToCheckOut,200,,Scenario-1_ShoppingFish 1-1,text,true,,5561,644,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,220,0,0
+1743701968574,221,Scn-1_Stp-08_EnterPaymentDetailsAndClickPayment,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,4689,1268,1,1,null,0,3307,0
+1743701971880,221,Scn-1_Stp-08_EnterPaymentDetailsAndClickPayment,200,,Scenario-1_ShoppingFish 1-1,text,true,,4689,1268,1,1,https://petstore.octoperf.com/actions/Order.action,221,0,0
+1743701972102,223,Scn-1_Stp-09_ClickOnConfirm,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,5390,621,1,1,null,0,3097,0
+1743701975199,223,Scn-1_Stp-09_ClickOnConfirm,200,,Scenario-1_ShoppingFish 1-1,text,true,,5390,621,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,222,0,0
+1743701975423,434,Scn-1_Stp-10_ClickOnSignOut,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario-1_ShoppingFish 1-1,,true,,5278,1255,1,1,null,0,3100,0
+1743701978523,434,Scn-1_Stp-10_ClickOnSignOut,200,,Scenario-1_ShoppingFish 1-1,text,true,,5278,1255,1,1,https://petstore.octoperf.com/actions/Catalog.action,215,0,0
+1743701978523,215,Scn-1_Stp-10_ClickOnSignOut-0,302,,Scenario-1_ShoppingFish 1-1,,true,,230,632,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,215,0,0
+1743701978739,218,Scn-1_Stp-10_ClickOnSignOut-1,200,,Scenario-1_ShoppingFish 1-1,text,true,,5048,623,1,1,https://petstore.octoperf.com/actions/Catalog.action,218,0,0
